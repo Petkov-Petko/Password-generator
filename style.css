@@ -1,0 +1,57 @@
+
+
+body{
+    background-color: rgb(19, 19, 82);
+    margin-left: 11%;
+    margin-top: 15%;
+}
+h1{
+    margin: 0;
+}
+#header h1{
+    font-size: 40px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+#h1 {
+    color: white;
+}
+
+#h2{
+    display: inline-block;
+    color: green;
+    border-bottom: 3px solid green;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#main input{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#main button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(43, 126, 48);
+    color: white;
+}
+
+#main .display{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#copyIcon{
+    position: relative;
+    left: -41px;
+    bottom: 10px;
+    font-size: 25px;
+}
